@@ -1,0 +1,470 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "spelling bee",
+            "intents": [
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "not sure",
+                        "I don't know",
+                        "instructions please",
+                        "help please",
+                        "instructions",
+                        "what are the instructions",
+                        "help me",
+                        "I need help",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "no more",
+                        "be quiet",
+                        "go away",
+                        "cancel",
+                        "shut up",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "AnswerA",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerB",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerC",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerD",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerE",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerF",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerG",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerH",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerI",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerJ",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerK",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerL",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerM",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerN",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerO",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerP",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerQ",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerR",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerS",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerT",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerU",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerV",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerW",
+                            "type": "LETTER"
+                        },
+                        {
+                            "name": "AnswerX",
+                            "type": "LETTER"
+                        }
+                    ],
+                    "samples": [
+                        "{AnswerA}",
+                        "{AnswerA} {AnswerB}",
+                        "{AnswerA} {AnswerB} {AnswerC}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH} {AnswerI}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH} {AnswerI} {AnswerJ}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH} {AnswerI} {AnswerJ} {AnswerK}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH} {AnswerI} {AnswerJ} {AnswerK} {AnswerL}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH} {AnswerI} {AnswerJ} {AnswerK} {AnswerL} {AnswerM}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH} {AnswerI} {AnswerJ} {AnswerK} {AnswerL} {AnswerM} {AnswerN}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH} {AnswerI} {AnswerJ} {AnswerK} {AnswerL} {AnswerM} {AnswerN} {AnswerO}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH} {AnswerI} {AnswerJ} {AnswerK} {AnswerL} {AnswerM} {AnswerN} {AnswerO} {AnswerP}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH} {AnswerI} {AnswerJ} {AnswerK} {AnswerL} {AnswerM} {AnswerN} {AnswerO} {AnswerP} {AnswerQ}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH} {AnswerI} {AnswerJ} {AnswerK} {AnswerL} {AnswerM} {AnswerN} {AnswerO} {AnswerP} {AnswerQ} {AnswerR}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH} {AnswerI} {AnswerJ} {AnswerK} {AnswerL} {AnswerM} {AnswerN} {AnswerO} {AnswerP} {AnswerQ} {AnswerR} {AnswerS}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH} {AnswerI} {AnswerJ} {AnswerK} {AnswerL} {AnswerM} {AnswerN} {AnswerO} {AnswerP} {AnswerQ} {AnswerR} {AnswerS} {AnswerT}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH} {AnswerI} {AnswerJ} {AnswerK} {AnswerL} {AnswerM} {AnswerN} {AnswerO} {AnswerP} {AnswerQ} {AnswerR} {AnswerS} {AnswerT} {AnswerU}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH} {AnswerI} {AnswerJ} {AnswerK} {AnswerL} {AnswerM} {AnswerN} {AnswerO} {AnswerP} {AnswerQ} {AnswerR} {AnswerS} {AnswerT} {AnswerU} {AnswerV}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH} {AnswerI} {AnswerJ} {AnswerK} {AnswerL} {AnswerM} {AnswerN} {AnswerO} {AnswerP} {AnswerQ} {AnswerR} {AnswerS} {AnswerT} {AnswerU} {AnswerV} {AnswerW}",
+                        "{AnswerA} {AnswerB} {AnswerC} {AnswerD} {AnswerE} {AnswerF} {AnswerG} {AnswerH} {AnswerI} {AnswerJ} {AnswerK} {AnswerL} {AnswerM} {AnswerN} {AnswerO} {AnswerP} {AnswerQ} {AnswerR} {AnswerS} {AnswerT} {AnswerU} {AnswerV} {AnswerW} {AnswerX}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": [
+                        "say that again",
+                        "can you repeat that",
+                        "repeat please",
+                        "one more time",
+                        "what was that",
+                        "come again",
+                        "repeat"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": [
+                        "please start over",
+                        "can you start over",
+                        "play again",
+                        "start over"
+                    ]
+                },
+                {
+                    "name": "BeginIntent",
+                    "slots": [],
+                    "samples": [
+                        "continue",
+                        "begin"
+                    ]
+                },
+                {
+                    "name": "DefinitionIntent",
+                    "slots": [],
+                    "samples": [
+                        "define",
+                        "what is the definition of",
+                        "what is the definition",
+                        "I need the definition",
+                        "give me the definition",
+                        "definition please",
+                        "definition"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LETTER",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "A.",
+                                "synonyms": [
+                                    "A",
+                                    "a.",
+                                    "a"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "B.",
+                                "synonyms": [
+                                    "B",
+                                    "b.",
+                                    "b"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "C.",
+                                "synonyms": [
+                                    "C",
+                                    "c.",
+                                    "c"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "D.",
+                                "synonyms": [
+                                    "D",
+                                    "d.",
+                                    "d"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "E.",
+                                "synonyms": [
+                                    "E",
+                                    "e.",
+                                    "e"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "F.",
+                                "synonyms": [
+                                    "F",
+                                    "f.",
+                                    "f"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "G.",
+                                "synonyms": [
+                                    "G",
+                                    "g.",
+                                    "g"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "H.",
+                                "synonyms": [
+                                    "H",
+                                    "h.",
+                                    "h"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "I.",
+                                "synonyms": [
+                                    "I",
+                                    "i.",
+                                    "i"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "J.",
+                                "synonyms": [
+                                    "J",
+                                    "j.",
+                                    "j"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "K.",
+                                "synonyms": [
+                                    "K",
+                                    "k.",
+                                    "k"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "L.",
+                                "synonyms": [
+                                    "L",
+                                    "l.",
+                                    "l"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "M.",
+                                "synonyms": [
+                                    "M",
+                                    "m.",
+                                    "m"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "N.",
+                                "synonyms": [
+                                    "N",
+                                    "n.",
+                                    "n"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "O.",
+                                "synonyms": [
+                                    "O",
+                                    "o.",
+                                    "o"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "P.",
+                                "synonyms": [
+                                    "P",
+                                    "p.",
+                                    "p"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Q.",
+                                "synonyms": [
+                                    "Q",
+                                    "q.",
+                                    "q"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "R.",
+                                "synonyms": [
+                                    "R",
+                                    "r.",
+                                    "r"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "S.",
+                                "synonyms": [
+                                    "S",
+                                    "s.",
+                                    "s"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "T.",
+                                "synonyms": [
+                                    "T",
+                                    "t.",
+                                    "t"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "U.",
+                                "synonyms": [
+                                    "U",
+                                    "u.",
+                                    "u"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "V.",
+                                "synonyms": [
+                                    "V",
+                                    "v.",
+                                    "v"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "W.",
+                                "synonyms": [
+                                    "W",
+                                    "w.",
+                                    "w"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "X.",
+                                "synonyms": [
+                                    "X",
+                                    "x.",
+                                    "x"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Y.",
+                                "synonyms": [
+                                    "Y",
+                                    "y.",
+                                    "y"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Z.",
+                                "synonyms": [
+                                    "Z",
+                                    "z.",
+                                    "z"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
